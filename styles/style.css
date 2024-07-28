@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ......Sheared styles..... */
+.display-flex{
+    display: flex;
+}
+/* sheared colours */
+.red1{
+    color: rgb(230, 83, 60);
+}
+.white1{
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+.body{
+    background-color: black;
+}
+
+
+/* Header style starts here */
+.header{
+    
+    max-width: 78rem;
+    margin: 0 auto;
+}
+/* ........nav-bar style start............ */
+.nav-bar{
+    max-width: 78rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.nav-links{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    border-radius: 2.5rem;
+    gap: 3.12rem;
+    padding: 0.5rem;
+
+}
+.nav-items{
+    list-style: none;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 800;
+
+}
+.nav-hamburger-menu{
+     display: none; 
+}
+/* ........nav-bar style end............ */
+
+
+
+/* Header style ends here */
