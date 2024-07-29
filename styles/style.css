@@ -9,6 +9,14 @@
     "slnt" 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 *{
     margin: 0;
     padding: 0;
@@ -37,18 +45,18 @@
 /* Header style starts here */
 .header{
     
-    max-width: 78rem;
+    max-width: 82rem;
     margin: 0 auto;
 }
 /* ........nav-bar style start............ */
 .nav-bar{
-    max-width: 78rem;
+    max-width: 82rem;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 60px;
 }
 .nav-links{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1px solid rgba(255, 255, 255, 0.164);
     border-radius: 2.5rem;
     gap: 3.12rem;
@@ -69,11 +77,115 @@
     font-weight: 800;
 
 }
+.Home{
+    width: 100px;
+    border-radius: 10px;
+    background: rgb(230, 83, 60);
+    padding: 4px;
+}
 .nav-hamburger-menu{
      display: none; 
 }
 /* ........nav-bar style end............ */
 
+/* banner style starts */
+.banner{
+    gap: 90px;
 
+}
+.banner>div{
+    width: 50%;
+}
+.banner-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner-image-container>img{
+    
+    padding-left: 50px;
+}
+.banner-text-container{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: left;
+    padding: 0;
+}
+.shape{
+    font-style: italic;
+    font-weight: 100;
+    font-family: cursive;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-wrap: wrap;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+}
+.btn-join{
+    border-radius: 42px;
+    padding: 16px 40px;
+    background: rgb(230, 83, 60);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 15px;
 
+}
+.btn-download-app{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: black;
+
+}
+.pop1{
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 23px 28px;
+    width: max-content;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    bottom: 12%;
+    gap: 8px;
+
+}
+.pop-round{
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+.line{
+    flex-direction: column;
+}
+.line1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+.line2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 3px;
+
+}
+.pop2{
+    flex-direction: column;
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 23px 28px;
+    width: max-content;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+/* banner style ends */
 /* Header style ends here */
