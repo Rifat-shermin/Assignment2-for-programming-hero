@@ -53,10 +53,10 @@
     max-width: 82rem;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .nav-links{
-    /* box-sizing: border-box; */
+    box-sizing: border-box; 
     border: 1px solid rgba(255, 255, 255, 0.164);
     border-radius: 2.5rem;
     gap: 3.12rem;
@@ -73,6 +73,7 @@
     text-decoration: none;
 }
 .nav-title{
+    font-style: italic;
     font-size: 2.25rem;
     font-weight: 800;
 
@@ -90,7 +91,8 @@
 
 /* banner style starts */
 .banner{
-    gap: 90px;
+    margin-top: 2.5rem;
+    gap: 3rem;
 
 }
 .banner>div{
@@ -148,6 +150,8 @@
     background-color: black;
 
 }
+
+/* pops styles start */
 .pop1{
     background-color: rgba(48, 48, 48, 0.54);
     padding: 23px 28px;
@@ -187,5 +191,79 @@
     top: 20%;
     right: 5%;
 }
+/* pops styles ends */
 /* banner style ends */
 /* Header style ends here */
+
+
+/* .........main section style starts here............ */
+.main{
+    
+    max-width: 82rem;
+    margin: 0 auto;
+}
+/* habit section start */
+.habits{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 6.25rem;
+    margin-bottom: 3.5rem;
+    gap: 4rem;
+    text-align: center;
+}
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.habit-description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+    margin-top: 0.5rem;
+}
+.habit-bottom{
+    gap: 0.6rem;
+}
+.habit>img{
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 5px solid rgba(128, 128, 128, 0.466);
+}
+.habit-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 0.5rem;
+}
+.habit-detail{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+/* habit section end */
+
+/* Run extra miles section starts here */
+.extra-miles{
+    border-radius: 1.3rem;
+    background: rgb(34, 34, 34);
+    padding: 54px 40px;
+    gap: 5%;
+}
+.run-container{
+    flex-direction: column;
+    max-width: 50%;
+
+}
+.runnig-img-container{
+    max-width: 40%;
+}
+.runnig-img-container>img{
+    width: 100%;
+    border-radius: 1.3rem;
+}
+/* Run extra miles section ends here */
+/* .........main section style ends here............ */
