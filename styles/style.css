@@ -44,16 +44,18 @@
 
 /* Header style starts here */
 .header{
-    
-    max-width: 82rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    max-width: 77.5rem;
     margin: 0 auto;
 }
 /* ........nav-bar style start............ */
 .nav-bar{
-    max-width: 82rem;
-    margin: 0 auto;
+    max-width: 77.5rem;
     justify-content: space-between;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin-left: 190px;
+    margin-right: 160px;
+    padding-top: 60px;
 }
 .nav-links{
     box-sizing: border-box; 
@@ -91,14 +93,16 @@
 
 /* banner style starts */
 .banner{
-    margin-top: 2.5rem;
-    gap: 3rem;
-
+    /* margin-top: 10px; */
+    gap: 1.5rem;
+    margin-left: 190px;
+    margin-right: 160px;
 }
-.banner>div{
+/* .banner>div{
     width: 50%;
-}
+} */
 .banner-image-container{
+    max-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +110,7 @@
 }
 .banner-image-container>img{
     
-    padding-left: 50px;
+    padding-left: 150px;
 }
 .banner-text-container{
     flex-direction: column;
@@ -115,9 +119,9 @@
 }
 .banner-title{
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 3.7rem;
     text-align: left;
-    padding: 0;
+    padding-top: 50px;
 }
 .shape{
     font-style: italic;
@@ -125,16 +129,18 @@
     font-family: cursive;
 }
 .banner-description{
-    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     text-wrap: wrap;
     margin-top: 10px ;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .btn-join{
     border-radius: 42px;
-    padding: 16px 40px;
+    border: none;
+    padding: 15px 30px;
+    width: 224px;
+    height: 54px;
     background: rgb(230, 83, 60);
     font-size: 1.25rem;
     font-weight: 500;
@@ -144,7 +150,9 @@
 .btn-download-app{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
-    padding: 16px 40px;
+    padding: 15px 30px;
+    width: 224px;
+    height: 54px;
     font-size: 1.25rem;
     font-weight: 500;
     background-color: black;
@@ -154,7 +162,7 @@
 /* pops styles start */
 .pop1{
     background-color: rgba(48, 48, 48, 0.54);
-    padding: 23px 28px;
+    padding: 15px 21px;
     width: max-content;
     border-radius: 15px;
     position: absolute;
@@ -171,25 +179,32 @@
     flex-direction: column;
 }
 .line1{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 .line2{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    margin-bottom: 3px;
-
+}
+.line3{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+.line4{
+    font-size: 12px;
+    font-weight: 400;
 }
 .pop2{
     flex-direction: column;
     background-color: rgba(48, 48, 48, 0.54);
-    padding: 23px 28px;
+    padding: 14px 20px;
     width: max-content;
     border-radius: 15px;
     position: absolute;
-    top: 20%;
-    right: 5%;
+    top: 25%;
+    right: -20%;
 }
 /* pops styles ends */
 /* banner style ends */
@@ -199,7 +214,7 @@
 /* .........main section style starts here............ */
 .main{
     
-    max-width: 82rem;
+    max-width: 77.5rem;
     margin: 0 auto;
 }
 /* habit section start */
@@ -227,6 +242,8 @@
 }
 .habit-bottom{
     gap: 0.6rem;
+    margin-left: 190px;
+    margin-right: 160px;
 }
 .habit>img{
     border-radius: 50%;
@@ -252,18 +269,50 @@
     background: rgb(34, 34, 34);
     padding: 54px 40px;
     gap: 5%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 190px;
+    margin-right: 160px;
 }
 .run-container{
     flex-direction: column;
     max-width: 50%;
+    margin-left: 45px;
 
 }
+.run-title{
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    
+}
+.run-detail{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+/* .btn-join{
+    width: 14.5rem;
+    height: 3.4rem;
+} */
 .runnig-img-container{
     max-width: 40%;
+    padding-top: 20px;
 }
 .runnig-img-container>img{
     width: 100%;
     border-radius: 1.3rem;
+    /* object-fit: none;
+    object-position: 66% 30%; */
 }
 /* Run extra miles section ends here */
+
+/* BMI calculator Css starts here */
+.bmi-cal{
+
+}
+/* BMI calculator Css ends here */
 /* .........main section style ends here............ */
