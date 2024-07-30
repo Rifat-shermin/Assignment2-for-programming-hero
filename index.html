@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            padding: 5px 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body class="body">
     <!-- .....Header starts here......  -->
@@ -118,7 +130,121 @@
                 <p class="cal-detail white1">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
         </section>
+
+        <section class="bmi-calculator-container display-flex">
+            <div class="chart-info display-flex">
+                <h1 class="chart-title white1">BMI Calculator Chart</h1>
+                <table class="bmi-table">
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="calculator display-flex">
+                <h1 class="calculator-title white1">Calculate your BMI</h1>
+                <p class="calculator-description white1">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                <div class="calculator-buttons">
+                    <!-- <input type="text" placeholder="Height/cm">
+                    <input type="text" placeholder="Weight/kg">
+                    
+                    <input type="text" placeholder="Age">
+                    <select name="" id="" placeholder="Sex">
+                        <option value="Sex">Sex</option>
+                        
+                    </select>
+                    
+                    <select name="" id="" placeholder="Select an activity factor">
+                        <option value="Select an activity factor">Select an activity factor</option> -->
+                        <input class="bmi-btn" type="text" placeholder="Height/cm">
+                        <input class="bmi-btn" type="text" placeholder="Weight/kg">
+                        <input class="bmi-btn" type="text" placeholder="Age">
+                        <input class="bmi-btn" type="text" placeholder="Sex">
+                        
+                        <input class="bmi-btn" id="btl-long" type="text" placeholder="Select an activity factor">
+
+                    </select>
+                </div>
+                <div>
+                    <button class="btn-join">Calculate</button>
+                </div>
+            </div>
+        </section>
     <!-- BMI calculator part ends here -->
+
+        <!-- .."Meet our teem" part starts here... -->
+         <section class="team display-flex">
+            <div class="team-top display-flex">
+                <h1 class="team-title white1">Meet Our Team</h1>
+                <p class="team-description white1">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/trainer1.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Jerome Bell</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/trainer2.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Cameron will</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/trainer3.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Darrell Steward</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/trainer4.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Dianne Russell</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/trainer5.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Cody Fisher</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/trainer6.png" alt="">
+                    <div class="member-info">
+                        <p class="name white1">Theresa Webb</p>
+                        <p class="position white1">Trainer</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- .."Meet our teem" part ends here... -->
 
      </main>
      <!-- .....main ends here......  -->
@@ -131,6 +257,31 @@
      <!-- .....footer starts here......  -->
       <footer class="footer">
 
+        <section class="footer-top display-flex">
+            <div class="foot-top">
+                <h1 class="nav-title red1">Fitness</h1>
+                <p class="footer-description white2">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer-coloum">
+                <h1 class="point-title white1">Get Started</h1>
+                <p class="footer-points white2">Service</p>
+                <p class="footer-points white2">Contact Us</p>
+                <p class="footer-points white2">Affiliate Program</p>
+                <p class="footer-points white2">About Us</p></div>
+            <div class="footer-coloum">
+                <h1 class="point-title white1">Get Started</h1>
+                <p class="footer-points white2">Fitness</p>
+                <p class="footer-points white2">Platform</p>
+                <p class="footer-points white2">Workout Libray</p>
+                <p class="footer-points white2">App Design</p>
+            </div>
+        </section>
+        <div class="horizontal-line white2"><hr></div>
+        
+
+        <section class="footer-bottom display-flex">
+            <p class="f-text white2">All right reserved @Fitness 2024</p>
+        </section>
       </footer>
       <!-- .....footer ends here......  -->
 </body>
