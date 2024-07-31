@@ -1,6 +1,7 @@
 /* ........Responsive for smaller device or mobile..... */
 @media only screen and (max-width: 576px) {
 
+    /* navbar */
     .nav-bar{
         max-width: 100%;
         margin: 0 auto;
@@ -17,6 +18,36 @@
     }
     .nav-link-container{
         display: none;
+    }
+
+    /* banner */
+    .banner{
+        flex-direction: column;
+    }
+
+    /* habit */
+    .habit-bottom{
+        flex-direction: column;
+    }
+
+    /* Extra mile */
+    .extra-miles{
+        flex-direction: column;
+    }
+
+    /* BMI calculator */
+    .bmi-calculator-container{
+        flex-direction: column;
+    }
+
+    /* meet our team */
+    .team-members{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer */
+    .footer-top{
+        flex-direction: column;
     }
     
 }
