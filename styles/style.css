@@ -45,11 +45,14 @@
 /* ........nav-bar style start............ */
 .nav-bar{
     max-width: 77.5rem;
+    margin: 8px 198px;
     justify-content: space-between;
+    padding: 30px;
     /* margin-top: 100px; */
-    margin-left: 190px;
+    /* margin-left: 190px;
     margin-right: 190px;
-    padding-top: 60px;
+    padding-top: 60px; */
+    
 }
 .nav-links{
     box-sizing: border-box; 
@@ -87,9 +90,11 @@
 
 /* banner style starts */
 .banner{
+    max-width: 77.5rem;
+    margin: 28px 198px;
     gap: 1.5rem;
-    margin-left: 190px;
-    margin-right: 160px;
+    /* margin-left: 190px;
+    margin-right: 160px; */
 }
 .banner-image-container{
     max-width: 40%;
@@ -98,8 +103,7 @@
     align-items: center;
     position: relative;
 }
-.banner-image-container>img{
-    
+.banner-image-container>img{ 
     padding-left: 150px;
 }
 .banner-text-container{
@@ -204,15 +208,15 @@
 /* habit section start */
 .habits{
     max-width: 77.5rem;
-    margin: 0 auto;
+    margin: 88px 198px;
 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+/* 
     margin: 88px 0px;
     margin-right: 320px;
-    margin-left: 270px;
+    margin-left: 270px; */
     gap: 4rem;
     text-align: center;
 }
@@ -254,20 +258,17 @@
 }
 /* habit section end */
 
+ 
 /* Run extra miles section starts here */
 .extra-miles{
-    
     max-width: 77.5rem;
-    margin: 0 auto;
+    margin: 88px 198px;
 
     border-radius: 1.3rem;
     background: rgb(34, 34, 34);
     padding: 54px 40px;
 
     gap: 5%;
-    margin-bottom: 88px;
-    margin-left: 280px;
-    margin-right: 190px;
 }
 .run-container{
     flex-direction: column;
@@ -297,33 +298,26 @@
 .runnig-img-container>img{
     width: 100%; 
     border-radius: 1.3rem;
-    /* width: 360px;
-    height: 310px; */
-    object-fit: fill;
-    object-position: 66% 33%; 
 }
 /* Run extra miles section ends here */
 
 /* BMI calculator Css starts here */
 .bmi-cal{
-    width: 670px;
-    height: 120px;
-    
+    max-width: 670px; 
+    max-height: 7.5rem;
+    margin: 88px 384px;
+
     display: flex;
     flex-direction: column;
-
-    margin-left: 590px;
-    margin-right: 385px;
-    margin-bottom: 88px;
 }
 
 .cal-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
 .cal-detail{
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
 }
@@ -331,14 +325,13 @@
     background-color: rgb(34, 34, 34);
 }
 .calculator-background{
-    width: 1220px;
-    height: 500px;
+    max-width: 77.5rem;
+    max-height: 32rem;
+    margin: 88px 198px;
 
     gap: 100px;
     padding-top: 50px;
-    margin-bottom: 88px;
-    margin-left: 290px;
-    margin-right: 190px;
+    padding-bottom: 50px;
     
 }
 .chart-info{
@@ -386,8 +379,108 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
 }
+#bmi-btnn{
+    width: 250px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
 
 /* BMI calculator Css ends here */
+
+/* Our Feature part starts (challenge part)  */
+.feature-head{
+    /* border: 2px solid tomato; */
+
+    max-width: 670px; 
+    max-height: 10.5rem;
+    margin: 88px 384px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: 540px; */
+ }
+ .feature-title{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 20px;
+ }
+ .feature-details{ 
+    font-size: 16px;
+    font-weight: 400;
+ }
+.feature{ 
+    /* border: 2px solid tomato;  */
+    /* width: 1040px; */
+
+    max-width: 77.5rem;
+    max-height: 38rem;
+    margin: 88px 198px;
+/* 
+    margin: 55px 0px;
+    margin-left: 280px;
+    margin-right: 160px; */
+    padding: 30px;
+    gap: 100px;
+
+}
+.feature-containers{
+    /* border: 2px solid greenyellow; */
+    flex-direction: column;
+    gap: 20px;
+
+}
+.items{
+    border: 5px solid rgba(128, 128, 128, 0.192);
+    border-radius: 12px;
+    display: flex;
+    max-width: 32.5rem;
+    max-height: 13.75rem;
+}
+.item-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.item-title{
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+
+}
+.item-details{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+.item-img-container{ 
+    /* border: 2px solid slateblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    margin-left: 30px;
+}
+.item-img-container>img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgba(169, 169, 169, 0.918);
+}
+ /* Our Feature part ends (challenge part)  */
+
 
 /* "Meet our Team" css starts here.....*/
 .team{
@@ -466,11 +559,10 @@
     background: rgba(255, 255, 255, 0.1);
 }
 .footer-top{
-    max-width: 77.5rem; 
-    margin-left: 370px;
-    margin-right: 190px;
-    padding-top: 66px;
-    padding-bottom: 60px;
+    max-width: 77.5rem;
+    margin: 88px 198px;
+    padding-top: 50px;
+
 }
 .foot-top{
     width: 50%;
@@ -499,15 +591,21 @@
 
 }
 .horizontal-line{
-    max-width: 77.5rem; 
+    /* max-width: 77.5rem; 
     margin-left: 300px;
-    margin-right: 190px;
+    margin-right: 190px; */
+    
+    max-width: 77.5rem;
+    margin: 88px 198px;
 }
 .footer-bottom{
-    max-width: 77.5rem; 
+    
+    max-width: 77.5rem;
+    margin: 88px 198px;
+/*     
     margin-left: 320px;
-    margin-right: 190px;
+    margin-right: 190px; */
     justify-content: center;
-    margin: 50px 290px; 
+    /* margin: 50px 290px;  */
     padding-bottom: 50px;
 }

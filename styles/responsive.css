@@ -1,6 +1,10 @@
 /* ........Responsive for smaller device or mobile..... */
 @media only screen and (max-width: 576px) {
 
+    .body{
+        margin: 0;
+        padding: 0;
+    }
     /* navbar */
     .nav-bar{
         max-width: 100%;
@@ -10,7 +14,7 @@
     }
     .nav-hamburger-menu{
         display: block;
-        background-color: aliceblue;
+        background-color: rgb(180, 182, 184);
         width: 40px;
         display: flex;
         justify-content: center;
@@ -23,23 +27,141 @@
     /* banner */
     .banner{
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
+    
+    .banner-image-container{
+    width: 100%;
+    margin-left: 50px;
+    }
+    .banner-text-container{
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    
+.banner-description{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+    .banner-btn{
+        display: flex;
+    }
+    .banner-btn>button{
+        width: 50%;
+    }
+    .btn-join{
+  padding: 5px 10px;
+    }
+.btn-download-app{
+    padding: 5px 10px;
+}
+
+
+.pop1{
+    left: -15%;
+    bottom: 42%;
+}
+
+.pop2{
+    top: 14%;
+    right: -100%;
+}
 
     /* habit */
+    .habits{
+margin: 0;
+padding: 0;
+    }
+    .habit-top{
+        margin-top: 50px;
+        padding: 20px;
+        margin-bottom: 0;
+    }
     .habit-bottom{
+        margin-top: 0;
+        width: 100%;
         flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+    .habit{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .habit-detail{
+        text-align: center;
     }
 
     /* Extra mile */
     .extra-miles{
-        flex-direction: column;
+        border: 2px solid tomato;
+        margin-top: 1100px;
+        margin-left: 0%;
+        padding: 0%;
+
+        width: 420px;
+        height: 700px;
+
+        flex-direction: column;    
     }
+    .run-container{
+        border: 2px solid yellow;
+        width: 100%;
+        height: 50%;
+    }
+.run-title{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.run-detail{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem; 
+}
+.runnig-img-container{
+    border: 5px solid blue;
+    width: 100%;
+    height: 50%;
+}
+.calculator-background{
+    max-width: 77.5rem;
+    max-height: 50rem;
+    margin: 0%;
+    margin-top: 50px;
+
+    flex-direction: column;
+    gap: 100px;
+    padding: 0%;
+    padding-top: 50px;
+    
+}
 
     /* BMI calculator */
+    .bmi-cal{
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+    }
     .bmi-calculator-container{
         flex-direction: column;
     }
-
+    /* oue feature */
+    .feature{
+        flex-direction: column;
+    }
+    .feature-head{
+        margin: 0%;
+        width: e50px;
+    }
     /* meet our team */
     .team-members{
         grid-template-columns: repeat(1, 1fr);

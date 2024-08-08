@@ -15,9 +15,12 @@
         td, th{
             border: 1px solid rgba(255, 255, 255, 0.1);
             color: rgba(255, 255, 255, 0.5);
-            padding: 8px 15px;
+            padding: 6px 12px;
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
+        }
+        th{
+            font-weight: 500;
         }
     </style>
 </head>
@@ -111,68 +114,7 @@
         </section>
      <!-- Habits section ends -->
 
-     <!-- Our Feature part starts -->
-      <section class="feature display-flex">
-        <div class="feature-left display-flex">
-            <div class="items">
-                <div class="item-info">
-                    <h2 class="item-title">Weight Loss</h2>
-                    <p class="item-details">Fat burners can help you on your journey to your dream physique. </p>
-                </div>
-                <div class="item-img-container">
-                    <img src="images/feature/body-scale.png" alt="">
-                </div>
-            </div>
-            <div class="items">
-                <div class="item-info">
-                    <h2 class="item-title">Build Muscle</h2>
-                    <p class="item-details">If you want to build muscle and strength, you have to train heavy.</p>
-                </div>
-                <div class="item-img-container">
-                    <img src="images/feature/strength.png" alt="">
-                </div>
-            </div>
-            <div class="items">
-                <div class="item-info">
-                    <h2 class="item-title">Stay fit</h2>
-                    <p class="item-details">Staying fit is a great way to improve your mood and overall health. </p>
-                </div>
-                <div class="item-img-container">
-                    <img src="images/feature/training.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="feature-right display-flex">
-            <div class="items">
-                <div class="item-img-container">
-                    <img src="images/feature/food.png" alt="">
-                </div>
-                <div class="item-info">
-                    <h2 class="item-title">Protein Plan</h2>
-                    <p class="item-details">Protein can be seen as the building blocks of the body. So, you have to plan it.</p>
-                </div>
-            </div>
-            <div class="items">
-                <div class="item-img-container">
-                    <img src="images/feature/weight-lifting .png" alt="">
-                </div>
-                <div class="item-info">
-                    <h2 class="item-title">Body Improve</h2>
-                    <p class="item-details">Flexibility and balance training that can improve your fitness and how to develop an exercise plan.</p>
-                </div>
-            </div>
-            <div class="items">
-                <div class="item-img-container">
-                    <img src="images/feature/dumbbell.png" alt="">
-                </div>
-                <div class="item-info">
-                    <h2 class="item-title">Personal Trainer</h2>
-                    <p class="item-details">Personal trainer is essential to achieving your fitness goals, whether they be weight loss-based, sports-driven or for athletic purposes. </p>
-                </div>
-            </div>
-        </div>
-      </section>
-
+     
     <!-- Extra miles section ends -->
         <section class="extra-miles display-flex">
             <div class="run-container display-flex">
@@ -187,7 +129,7 @@
     <!-- Extra miles section ends -->
 
     <!-- BMI calculator part starts here -->
-        <section>
+            <section>
             <div class="bmi-cal">
                 <p class="cal-title white1">BMI Calculator</p>
                 <p class="cal-detail white1">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
@@ -244,10 +186,20 @@
                             <input class="bmi-btn" type="text" placeholder="Height/cm">
                             <input class="bmi-btn" type="text" placeholder="Weight/kg">
                             <input class="bmi-btn" type="text" placeholder="Age">
-                            <input class="bmi-btn" type="text" placeholder="Sex">
+                            <!-- <input class="bmi-btn" type="text" placeholder="Sex">
                             
                             <input class="bmi-btn" type="text" placeholder="Select an activity factor">
-    
+     -->
+                        <select name="" id="bmi-btnn" >
+                            <option value="Sex">Sex</option>
+                            
+                        </select>
+                        <select name="" id="bmi-btnn" >
+                            <option value="Select an activity factor">Select an activity factor</option>
+                            
+                        </select>
+                       
+                    
                         </select>
                     </div>
                     <div>
@@ -258,6 +210,73 @@
             </div>
         </section>
     <!-- BMI calculator part ends here -->
+
+    <!-- Our Feature part starts (challenge part) -->
+    <section class="feature-head display-flex">
+        <h1 class="feature-title white1">Our Feature</h1>
+        <p class="feature-details white2">We are providing many feature for your service to achive your cirtain goals. </p>
+      </section>
+      <section class="feature display-flex">
+        <div class="feature-containers display-flex">
+            <div class="items">
+                <div class="item-info">
+                    <h2 class="item-title">Weight Loss</h2>
+                    <p class="item-details">Fat burners can help you on your journey to your dream physique. </p>
+                </div>
+                <div class="item-img-container">
+                    <img src="images/feature/dumbells.png" alt="">
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-info">
+                    <h2 class="item-title">Build Muscle</h2>
+                    <p class="item-details">If you want to build muscle and strength, you have to train heavy.</p>
+                </div>
+                <div class="item-img-container">
+                    <img src="images/feature/strength.png" alt="">
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-info">
+                    <h2 class="item-title">Stay fit</h2>
+                    <p class="item-details">Staying fit is a great way to improve your mood and overall health. </p>
+                </div>
+                <div class="item-img-container">
+                    <img src="images/feature/training.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="feature-containers display-flex">
+            <div class="items">
+                <div class="item-img-container">
+                    <img src="images/feature/food.png" alt="">
+                </div>
+                <div class="item-info">
+                    <h2 class="item-title">Protein Plan</h2>
+                    <p class="item-details">Protein can be seen as the building blocks of the body. So, you have to plan it.</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-img-container">
+                    <img src="images/feature/weight-lifting .png" alt="">
+                </div>
+                <div class="item-info">
+                    <h2 class="item-title">Body Improve</h2>
+                    <p class="item-details">Flexibility and training can improve your fitness and develop an exercise plan.</p>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-img-container">
+                    <img src="images/feature/body-building.png" alt="">
+                </div>
+                <div class="item-info">
+                    <h2 class="item-title">Personal Trainer</h2>
+                    <p class="item-details">Personal trainer is essential to achieving your fitness goals. </p>
+                </div>
+            </div>
+        </div>
+      </section>
+<!--   Our Feature part endts (challenge part) -->
 
         <!-- .."Meet our teem" part starts here... -->
          <section class="team display-flex">
