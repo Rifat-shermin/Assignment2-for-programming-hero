@@ -48,10 +48,6 @@
     margin: 8px 198px;
     justify-content: space-between;
     padding: 30px;
-    /* margin-top: 100px; */
-    /* margin-left: 190px;
-    margin-right: 190px;
-    padding-top: 60px; */
     
 }
 .nav-links{
@@ -93,8 +89,6 @@
     max-width: 77.5rem;
     margin: 28px 198px;
     gap: 1.5rem;
-    /* margin-left: 190px;
-    margin-right: 160px; */
 }
 .banner-image-container{
     max-width: 40%;
@@ -389,6 +383,7 @@
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
 }
+
 
 /* BMI calculator Css ends here */
 

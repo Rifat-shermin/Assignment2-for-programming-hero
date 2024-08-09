@@ -9,8 +9,9 @@
     .nav-bar{
         max-width: 100%;
         margin: 0 auto;
+        padding: 0%;
         padding: 0.75rem;
-        padding-right: 10px;
+        padding-right: 10px; 
     }
     .nav-hamburger-menu{
         display: block;
@@ -33,7 +34,7 @@
     
     .banner-image-container{
     width: 100%;
-    margin-left: 50px;
+    margin-left: 30px;
     }
     .banner-text-container{
         justify-content: flex-start;
@@ -41,13 +42,15 @@
     }
     .banner-title{
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.2rem;
+        
     }
     
 .banner-description{
     font-size: 0.8rem;
     font-weight: 300;
     margin-bottom: 20px;
+    max-width: 220px;
 }
     .banner-btn{
         display: flex;
@@ -57,9 +60,13 @@
     }
     .btn-join{
   padding: 5px 10px;
+  width: 194px;
+    height: 40px;
     }
 .btn-download-app{
     padding: 5px 10px;
+    width: 194px;
+    height: 40px;
 }
 
 
@@ -85,9 +92,10 @@ padding: 0;
     }
     .habit-bottom{
         margin-top: 0;
+        margin: 0%;
         width: 100%;
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
         gap: 40px;
     }
     .habit{
@@ -108,7 +116,7 @@ padding: 0;
         margin-left: 0%;
         padding: 0%;
 
-        width: 250px;
+        width: 280px;
         height: 700px;
 
         flex-direction: column;    
@@ -132,39 +140,46 @@ padding: 0;
     width: 100%;
     height: 50%;
 }
-.calculator-background{
-    max-width: 77.5rem;
-    max-height: 50rem;
-    margin: 0%;
-    margin-top: 50px;
-
-    flex-direction: column;
-    gap: 100px;
-    padding: 0%;
-    padding-top: 50px;
-    
-}
 
     /* BMI calculator */
+    .calculator-background{
+        border: 5px solid sandybrown;
+        max-width: 290px; 
+        max-height: 50rem;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 30px;
+        padding-top: 50px;
+    
+        flex-direction: column;
+        gap: 80px;   
+    }
     .bmi-cal{
         border: 5px solid yellow;
         margin: 0;
         padding: 0;
+        max-width: 290px;
+        max-height: 180px;
         padding-left: 20px;
+    }
+    .cal-title{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .cal-detail{
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 24px;
     }
     .bmi-calculator-container{
         border: 5px solid yellowgreen;
         margin-top: 50px;
-        width: 300px;
+        width: 340px;
         height: 800px;
         flex-direction: column;
     }
-    .calculator-background{
-        margin: 0%;
-        padding: 0%;
-        margin-top: 20px;
-        gap: 60px;
-    }
+    
     .chart-info{
         border: 5px solid red;
         margin: 0%;
@@ -188,14 +203,14 @@ padding: 0;
         font-size: 12px;
     }
     .bmi-btn{
-        width: 150px;
+        width: 140px;
         height: 38px;
         padding: 12px 40px 12px 20px;
         margin-right: 10px;
         margin-bottom: 12px;
     }
     #bmi-btnn{
-        width: 150px;
+        width: 140px;
         height: 38px;
         padding: 12px 40px 12px 20px;
         margin-right: 10px;
@@ -222,7 +237,6 @@ padding: 0;
      }
     .feature{
         margin: 0%;
-        
         flex-direction: column;
         gap: 20px;
     }
@@ -257,7 +271,7 @@ padding: 0;
     }
     .team-top{
         border: 2px solid tomato; 
-        width: 280px;
+        width: 320px;
         height: 140px;
 
         margin: 0px;
@@ -272,8 +286,8 @@ padding: 0;
         font-size: 11px;
     }
     .team-members{ 
-        width: 260px;
-        height: 1400px; 
+        width: 310px;
+        height: 1650px; 
     
         display: flex;
         flex-direction: column;
@@ -286,8 +300,9 @@ padding: 0;
 
     }
     .team-member{
-        width: 230px;
-        height: 220px;
+        width: 290px;
+        height: 240px;
+        margin-top: 10px;
         padding: 10px;
         padding-left: 40px;
         
@@ -311,11 +326,11 @@ padding: 0;
     /* footer */
     .footer{
         border: 5px solid tomato;
-        width: 280px;
+        width: 330px;
     }
     .footer-top{
         border: 5px solid teal;
-        width: 250px;
+        width: 300px;
         margin: 0px;
         padding: 0px;
 
