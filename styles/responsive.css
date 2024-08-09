@@ -111,39 +111,47 @@ padding: 0;
 
     /* Extra mile */
     .extra-miles{
-        border: 2px solid tomato;
-        margin-top: 1100px;
-        margin-left: 0%;
+        /* border: 2px solid tomato; */
         padding: 0%;
-
-        width: 280px;
-        height: 700px;
-
+        margin: 0%;
+        margin-top: 1100px;
+        margin-bottom: 50px;
+        
+        width: 330px;
+        height: 600px;
         flex-direction: column;    
     }
     .run-container{
-        border: 2px solid yellow;
-        width: 100%;
-        height: 50%;
+        /* border: 2px solid yellow; */
+        max-width: 300px;
+        height: 250px;
+        margin: 20px;
     }
 .run-title{
-    font-size: 2.1rem;
+    /* border: 2px solid red; */
+    font-size: 2rem;
     font-weight: 800;
 }
 .run-detail{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 1rem; 
 }
 .runnig-img-container{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+    max-width: 300px;
+    height: 280px;
+    padding: 0%;
+    margin: 20px;
+}
+.runnig-img-container>img{
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
     /* BMI calculator */
     .calculator-background{
-        border: 5px solid sandybrown;
+        /* border: 5px solid sandybrown; */
         max-width: 290px; 
         max-height: 50rem;
         margin: 0%;
@@ -155,7 +163,7 @@ padding: 0;
         gap: 80px;   
     }
     .bmi-cal{
-        border: 5px solid yellow;
+        /* border: 5px solid yellow; */
         margin: 0;
         padding: 0;
         max-width: 290px;
@@ -173,7 +181,7 @@ padding: 0;
         line-height: 24px;
     }
     .bmi-calculator-container{
-        border: 5px solid yellowgreen;
+        /* border: 5px solid yellowgreen; */
         margin-top: 50px;
         width: 340px;
         height: 800px;
@@ -181,7 +189,7 @@ padding: 0;
     }
     
     .chart-info{
-        border: 5px solid red;
+        /* border: 5px solid red; */
         margin: 0%;
         padding: 0%;
         margin-left: 20px;
@@ -191,7 +199,7 @@ padding: 0;
         font-size: 20px;
     }
     .calculator{
-        border: 5px solid green;
+        /* border: 5px solid green; */
         margin: 0%;
         width: 100%;
         margin-left: 20px;
@@ -218,7 +226,7 @@ padding: 0;
     }
     /* oue feature */
     .feature-head{
-        border: 5px solid turquoise;
+        /* border: 5px solid turquoise; */
         margin: 0%;
         max-width: 270px;
         max-height: 270px;
@@ -270,7 +278,7 @@ padding: 0;
         flex-direction: column;
     }
     .team-top{
-        border: 2px solid tomato; 
+        /* border: 2px solid tomato;  */
         width: 320px;
         height: 140px;
 
@@ -295,7 +303,7 @@ padding: 0;
         
         margin: 0%;
         padding: 0%;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-bottom: 50px;
 
     }
@@ -325,15 +333,14 @@ padding: 0;
 
     /* footer */
     .footer{
-        border: 5px solid tomato;
+        /* border: 5px solid tomato; */
         width: 330px;
     }
     .footer-top{
-        border: 5px solid teal;
+        /* border: 5px solid teal; */
         width: 300px;
         margin: 0px;
         padding: 0px;
-
         margin: 20px;
         
         flex-direction: column;
@@ -355,9 +362,6 @@ padding: 0;
         font-size: 22px;
         margin-bottom: 15px;
     }
-
-
-
     .horizontal-line{
         width: 250px;
         margin: 0%;
